@@ -1,0 +1,6 @@
+<aura:component >
+    <aura:handler event="c:SampleApplicationEvent" action="{!c.handleSampleEvent}"/>
+    <aura:attribute name="setMeOnEventFiring" type="String" default="**nothing fired yet" />
+    <h1>Component 8 - Handles Application Event</h1>
+    <p>Anything? {!v.setMeOnEventFiring}</p>
+</aura:component>

@@ -1,0 +1,6 @@
+<aura:component implements="force:appHostable">
+	<h1>Blog Component - Master</h1>
+   <!-- <c:BlogComponent/>
+    <c:BlogComponent2 /> -->
+    <c:SampleLightningponent1 />
+</aura:component>
